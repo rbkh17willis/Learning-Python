@@ -1,27 +1,44 @@
-# Table of Contents
+# Introduction To Python
 
-1. [Exercise 1](#exercise-1)
-2. [Exercise 2](#exercise-2)
+## Objective
+Build the command line version of a Recipe App that takes advantage of Python’s object-oriented nature. 
 
-# Exercise 1
+### User Goals
+Users should be able to create and modify recipes with ingredients, cooking time, and a difficulty parameter that would be automatically calculated by the app. Your users should also be able to search for recipes by their ingredients.
 
-## Steps within Exercise
+### Key Features
+- Create and manage the user’s recipes on a locally hosted MySQL database.
+- Option to search for recipes that contain a set of ingredients specified by the user.
+- Automatically rate each recipe by its difficulty level.
+- Display more details on each recipe if the user prompts it, such as the ingredients, cooking time, and difficulty of the recipe.
 
-1. Install Python
-2. Set Up a Virtual Environment
-3. Create a Python Script
-4. Set Up IPython Shell
-5. Export a Requirements File
-6. Create a Github Repo
+### Project Deliverables
 
-# Exercise 2
+_Follow along with each stage of the project by navigating to the exercise folders in the repository_
 
-## Steps within Exercise
+#### Exercise 1: Intro to Python Programming
+- Install Python on macOS, Windows, or Linux
+- Create and manage virtual environments
+- Use pip to install and manage packages
 
-1. Create a structure named recipe_1 that contains the following keys:
-      * name (str): Contains the name of the recipe
-      * cooking_time (int): Contains the cooking time in minutes
-      * ingredients (list): Contains a number of ingredients, each of the str data type
-2. Create an outer structure called all_recipes, and then add recipe_1 to it
-3. Generate 4 more recipes as recipe_2, recipe_3, recipe_4, and recipe_5, and then add them as well to all_recipes.
-4. Print the ingredients of each recipe as five different lists, inside the IPython shell.
+#### Exercise 2: Data Types in Python
+- Use data types and methods to execute Python commands that store recipes containing their own internal data
+- Enter a number of these recipes into another linear data structure
+
+#### Exercise 3: Functions and Other Operations in Python
+- Implement conditional statements in Python to determine program flow
+- Use loops to reduce time and effort in Python programming
+- Write functions to organize Python code
+
+#### Exercise 4: File Handling in Python
+- Use files to store and retrieve data in Python
+
+#### Exercise 5: Object-Oriented Programming in Python
+- Apply object-oriented programming concepts to your Recipe app
+
+#### Exercise 6: Databases in Python
+- Create a MySQL database for your Recipe app
+
+#### Exercise 7: Object-Relational Mapping in Python
+-	Interact with a database using an object-relational mapper
+-	Build your final command-line Recipe application
